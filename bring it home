@@ -1,0 +1,39 @@
+Paris DD:
+Lat; 49.02561249691791, Long; 2.3302421749760485
+
+Paris DMS:
+49° 1' 32.20499", 2° 19' 48.87183"
+(49 degrees, 1 minutes, 32.20499 seconds),
+(2 degrees, 19 minutes, 48.87183 seconds)
+
+pole_Nord DD:
+Lat; 86°, Long; 179°
+
+Pole_Nord DMS:
+172° 0' 0" , 86° 0' 0"
+(172 degrees, 0 minutes, 0 seconds)
+(86 degrees, 0 minutes, 0 seconds)
+
+
+How to Convert Decimal Degrees to DMS
+Follow these steps to convert decimal degrees to DMS:
+
+For the degrees use the whole number part of the decimal
+For the minutes multiply the remaining decimal by 60. Use the whole number part of the answer as minutes.
+For the seconds multiply the new remaining decimal by 60
+Example: Convert decimal degrees 156.742 to degrees minutes seconds
+The whole number is degrees. So 156.742 gives you 156 degrees.
+Multiply the remaining decimal by 60.
+0.742*60 = 44.52, so the whole number 44 equals minutes.
+Multiply the remaining decimal by 60.
+0.52*60 = 31.2, so the whole number 31 equals seconds.
+Decimal degrees 156.742 converts to 156 degrees, 44 minutes and 31 seconds, or 156° 44' 31".
+Be sure to follow math rules of rounding when calculating seconds by hand. If your resulting seconds is something like 31.9 you may round up to 32.
+
+
+Why multiply decimal degrees by 60 to get minutes and seconds?
+Circles and spheres have 360 degrees in a complete rotation. One degree has 60 minutes and one minute has 60 seconds. If you have 91.456 degrees you can see that your measurement is 91 whole degress plus 0.456 of a degree.
+
+To state the decimal 0.456 degrees in minutes multiply 0.456*60 to get 27.36 minutes. Now you have 27 whole minutes plus 0.36 of a minute.
+
+To state the decimal 0.36 minutes seconds multiply 0.36*60 to get 21.6 seconds. Since your decimal 0.6 is greater than 0.5 you can round up to 22 seconds if you like.
