@@ -1,9 +1,9 @@
-#division en modulo
 def division(a,b,c,d):
- return(x)
-a=5
-b=100
-c=2
-d=32
-x=a/b / c/d
-print(x)
+    return(a/b*c/d)
+
+a= 2
+b= 4
+c= 6
+d= 8
+
+print(division(a,b,c,d))
