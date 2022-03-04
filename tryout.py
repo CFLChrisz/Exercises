@@ -1,6 +1,4 @@
-x =1+1
-print(x) 
-
-v= 21%5
-
-print(v)
+def fraction(fr1,fr2):
+    a,b =fr1 
+    c,d =fr2
+    return()
