@@ -10,6 +10,6 @@ def diction():
         "Emma Parent Senez":"Logique mathématique pour les professionnels de l'informatiqe",
         "Jean-Pierre Fiset":"SYSTÈMES D'EXPLOITATION"
         }
-    print(cours_hiver_2022.get(1))
+    print(cours_hiver_2022.get(kevin))
     return None
 diction()
