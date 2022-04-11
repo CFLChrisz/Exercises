@@ -1,0 +1,58 @@
+Exercices
+
+
+Exercice 1:
+
+Créer une liste contenant tous les nombres premiers entre 2 et 20. Ensuite, demander à l'utilisateur d'écrire un nombre entre 2 et 20 (bien vérifier si c'est le cas) et vérifier si ce nombre est premier à l'aide de votre liste en affichant le résultat à la console.
+
+
+Exercice 2:
+
+Créer une liste de 5 éléments : [1, 2, 5, 3, 4]. Ensuite, créer deux copies de cette liste, une copie en surface et une copie profonde intitulée respectivement surface et profonde. Finalement, demander à l'utilisateur d'entrer un mot, modifier le 2e élément de la liste «surface» et le 3e élément de la liste «profonde» et imprimer les trois listes à la console.
+
+Exercice 3:
+
+Créer un dictionnaire possédant les cours que vous suivez cette session et leur enseignant respectif. Par exemple:
+
+Keven Presseau-St-Laurent - Concepts de programmation 1
+
+
+
+Ensuite, afficher un menu à la console présentant les 3 cours et offrant à l'utilisateur d'en sélectionner 1. Lorsque l'utilisateur à fait sa sélection, afficher le nom de l'enseignant et le nom du cours à l'écran.
+
+
+Exercice 4:
+
+En se basant sur l'exercice 3, créer un fichier bdd.txt fonctionnant comme une base de données et remplir le dictionnaire à partir de ce fichier. Pour vous faciliter la tâche, vous pouvez écrire les informations de la manière suivante:
+
+Nom de cours 1
+
+Nom de prof 1
+
+Nom de cours 2
+
+....
+
+Exercice 5:
+
+En se basant sur l'exercice 4, modifier le menu utilisateur en y ajoutant une option lui permettant de faire une recherche d'enseignant. Vérifier si l'enseignant entré par l'utilisateur est présent dans votre liste de cours et indiquer le résultat à la console.
+
+Exercice 6:
+
+Offrir à l'utilisateur une nouvelle option au menu lui permettant d'ajouter un cours et un nom d'enseignant à la base de données de l'exercice 4. Une fois les données utilisateurs entrées, ajouter les informations à la fin du document bdd.txt
+
+Revue de paires:
+Utilisez l'exercice 3-6 pour faire la revue des paires. Publiez vos exercices dans le «repo» revue_des_paires de la semaine précédente pour effectuer la remise.
+
+Exercices supplémentaires:
+
+Exercice 7:
+Offrir à l'utilisateur d'entrer un nom de fichier et 5 nombres. Ensuite, créer une liste avec les nombres et imprimer les résultats suivant dans le fichier nommé par l'utilisateur:
+
+Afficher en ordre croissant
+Afficher en ordre décroissant
+Afficher le maximum
+Afficher le minimum
+Afficher chaque nombre puissance lui-même dans l'ordre initial entré par l'utilisateur. Ex: pow(a, a).
+Afficher la moyenne de la liste
+Afficher la médianne.
