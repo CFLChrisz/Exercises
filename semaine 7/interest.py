@@ -4,6 +4,8 @@ rate=float(input('type your yearly interrest rate: '))
 time=int(input('type how many years of interests: '))
 real_rate= rate*0.01
 i= 1
+print()
+print('initial year:', "%.2f" %(round(ammout,2)),'$')
 
 while i < time:
     ammout=(ammout * (1+real_rate))
