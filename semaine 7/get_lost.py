@@ -1,2 +1,7 @@
 f=open('logs.txt','r')
-print(f[1,1]) 
+data=[]
+db=f.readlines()
+for line in db:
+    data.append(line.split(''))
+bd=[line.split('')for line in f.readlines()]
+print(bd) 

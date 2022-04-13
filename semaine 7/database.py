@@ -1,7 +1,16 @@
-from sqlite3 import dbapi2
+player1='killer'
+player2='murder'
+player3='shooter'
+player4='psycho'
 
-
-DB=[['1234','voiture1',100,1000,10000,0.018],
-    ['3456','chat123',150,2000,25000,0.03],
-    ['333','1234','5',100,1000,0.15],
-    ['000','admin',0,0,0,0]]
+user=input('chose your destiny')
+if user == player1:
+    print('time to kill')
+elif user == player2:
+    print('superb')
+elif user == player3:
+    print('excelent!')
+elif user == player4:
+    print('ransom!')
+else:
+    ('game over')
