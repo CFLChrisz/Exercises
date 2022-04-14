@@ -13,28 +13,27 @@ pass1=bd[0][1]
 pass2=bd[1][1]
 pass3=bd[2][1]
 adminpass=bd[3][1]    
-correct = True
-while correct:
+loggin = False
+while loggin==False:
     user = input('Hello! please enter your username: ')
-    if user == user1 or user2 or user3 or admin and not[]:
-        psswrd = input('please enter the password: ')
-        if psswrd == pass1:
-            print('supreme victory!!!')
-        elif psswrd == adminpass:
-            print('welcome Administaror')
-            break
-        if psswrd !=pass1 or pass2 or pass3 or adminpass:
-            pssn = input('the password or username you provided is incorrect. Would you like to try again? y/n?')
-            if pssn == 'y'.lower():
-                correct=True
-            else:
-                print('Thank you, goodbye!')
-                quit()
-
-    if user != user1 or user2 or user3 or admin:
-        fail =input('invalid Username; would you like to try again? y/n?')
-        if fail == 'y'.lower():
-            correct=True
+    psswrd=input('Enter your password.: ')
+    if user==user1 and psswrd==pass1 or user==user2 and psswrd==pass2 or user==user3 and psswrd==pass3:
+            print('Welcome',user,)
+            loggin=True
+    elif user==admin and psswrd==adminpass:
+        print('welcome Administaror',user,'!!!')
+        loggin=True
+        adminacc=True
+        break
+    else:
+        pssn = input('the password or username you provided is incorrect. Would you like to try again? y/n?')
+        if pssn == 'y'.lower():
+            loggin=False
         else:
             print('Thank you, goodbye!')
             quit()
+
+if loggin==True:
+    print(user)
+elif adminacc==True:
+    print(user)
