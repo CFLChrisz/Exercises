@@ -1,3 +1,4 @@
+
 f=open('logs.txt','r')
 lines=list(f.readlines())
 bd =[]
@@ -13,28 +14,30 @@ pass1=bd[0][1]
 pass2=bd[1][1]
 pass3=bd[2][1]
 adminpass=bd[3][1]    
-correct = True
-while correct:
-    user = input('Hello! please enter your username: ')
-    if user == user1 or user2 or user3 or admin and not[]:
-        psswrd = input('please enter the password: ')
-        if psswrd == pass1:
-            print('supreme victory!!!')
-        elif psswrd == adminpass:
-            print('welcome Administaror')
-            break
-        if psswrd !=pass1 or pass2 or pass3 or adminpass:
-            pssn = input('the password or username you provided is incorrect. Would you like to try again? y/n?')
-            if pssn == 'y'.lower():
-                correct=True
-            else:
-                print('Thank you, goodbye!')
-                quit()
+loggin = False
 
-    if user != user1 or user2 or user3 or admin:
-        fail =input('invalid Username; would you like to try again? y/n?')
-        if fail == 'y'.lower():
-            correct=True
+while loggin == False:
+    user = input('Hello! please enter your username: ')
+    psswrd=input("enter your account's password: ")
+    
+    if user==user1 and pass1==psswrd or user==user2 and pass2==psswrd or user==user3 and pass3==psswrd:
+        print('Welcome', user,'!')
+        loggin=True
+    elif user==admin and adminpass==psswrd:
+        print('welcome Administrator',user,'!')
+        adminacc = True
+        break
+    else:
+        error = input('the password or username you provided is incorrect. Would you like to try again? y/n?: ')
+        if error == 'y'.lower():
+            loggin=False
         else:
             print('Thank you, goodbye!')
             quit()
+
+while loggin==True:
+    print('How can we help you today?\n','type[1] for your checking account\n','type[2] for your saving account\n','type[3]')
+    input('')
+    
+    if input==1:
+        print('Checking Account')

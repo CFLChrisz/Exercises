@@ -1,0 +1,5 @@
+player1 killer
+player2 murder
+player3 shooter
+player4 psycho
+
