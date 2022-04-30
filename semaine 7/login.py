@@ -5,7 +5,7 @@ def encrypt():
     for l in lines:
         bd.append(l.split())
     f.close()
-    print(bd) 
+    print(bd[0][1])
 
     def log():
         user = input('Hello! please enter your username: ')

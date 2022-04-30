@@ -11,7 +11,7 @@ for i in range(len(bd)):
     saving=bd[i][3]
     investment=bd[i][4]
     rate=bd[i][5]
-ammout=(investment)
+ammout=float(investment)
 time=int(input('type how many years of interests: '))
 real_rate=float(rate)*0.01
 i= 0
