@@ -1,4 +1,4 @@
-f=open('logs.txt','r')
+f=open('../../Laboratoire-4/logs.txt', 'r')
 lines=list(f.readlines())
 bd =[]
 for l in lines:
